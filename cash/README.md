@@ -9,15 +9,16 @@ Cash is a library who convert a amount of currency in a other currency.
 
 ## Summary
 
- * Tools
- * Set-up
- * How it Works
+ * [Tools]()
+ * [Set-up]()
+ * [How it Works]()
 
 # Tools
 
+#### Install Node.js
 
 * [Node.js](https://nodejs.org/en/)
- *On Windows, don't forget to install npm in the process*
+ *On Windows, don't forget to install npm in the installation process*
 
 #### Linux: Install npm
 
@@ -33,7 +34,7 @@ $ sudo apt-get install learnyounode
 
 # Set-up
 
-Go to directory */cash* using **cd /YourDirectory/cash** and run command: **npm install**
+Go to directory **/cash** using ```cd /YourDirectory/cash``` and run command: ```npm install```
   * *This will install the packages listed in the package.json file*
 
 ```sh
@@ -42,7 +43,7 @@ $ npm install
 
 # How It Works
 
-Go to directory /cash using **cd /YourDirectory/cash** and run command: **node /bin/index.js [amount] [currency]**
+Go to directory **/cash** using ```cd /YourDirectory/cash``` and run command: ```node /bin/index.js [amount] [currency]```
   * Enter the *amount* and the *currency*, for example:
 
 ```sh
