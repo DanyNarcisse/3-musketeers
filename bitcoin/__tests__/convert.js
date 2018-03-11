@@ -69,8 +69,9 @@ test('should convert a NaN to a String', () => {
 
 //convert(NaN, 'BTC', 'BTC', 'Big');
 test('should not convert a NaN to a Big', () => {
-  expect(expect(typeof convert(NaN, 'BTC', 'BTC', 'Big')).not.toBe(typeof new Big(2))).toThrow();
-  throw new Error('test not yet defined... write your test here');
+  //expect(expect(typeof convert(NaN, 'BTC', 'BTC', 'Big')).not.toBe(typeof new Big(2))).toThrow();
+  //Not working properly
+  throw new Error('Not working properly, test not yet defined... write your test here');
 });
 
 //convert(4.6, 'Satoshi', 'BTC', 'Number');
